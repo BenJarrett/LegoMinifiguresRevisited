@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LegoMinifiguresRevisited.Heads;
+using System;
 
 namespace LegoMinifiguresRevisited
 {
@@ -6,7 +7,9 @@ namespace LegoMinifiguresRevisited
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var head = new ConstructionWorkerHead();
+
+            head.Color = LegoColor.Yellow;
         }
     }
 }

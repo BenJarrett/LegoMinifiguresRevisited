@@ -8,8 +8,10 @@ namespace LegoMinifiguresRevisited.Heads
 {
     class ConstructionWorkerHead
     {
+        // I set the 'Color' Propterty to the the Lego Color Enum //
+        // This Property can now only be set to valid properties of the enum //
         public bool HasMullet { get; set; }
-        public string Color { get; set; }
+        public LegoColor Color { get; set; } // This will be set to the default enum color of Yellow unless we specify //
         public int NumberOfTeeth { get; set; }
         public bool WearingHardHat { get; set; }
 
@@ -41,4 +43,7 @@ namespace LegoMinifiguresRevisited.Heads
             Console.WriteLine("The Construction Worker Head says hello.");
         }
     }
+
+
+
 }

@@ -22,7 +22,7 @@ namespace LegoMinifiguresRevisited.Heads
             Color = LegoColor.Black;
         }
 
-        public void Spin()
+        public override void Spin()
         {
             Console.WriteLine("Where is the joker?");
         }

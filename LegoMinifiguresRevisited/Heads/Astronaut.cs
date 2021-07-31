@@ -15,13 +15,14 @@ namespace LegoMinifiguresRevisited.Heads
         
         // Base - Let me interact directly with what I am inheriting from //
         // This allows me to add to the inherited SayHi method from the HeadBase Class // 
+        // Override means that it will do this custom Method that we are inheriting from the HeadBase Class //
         public override void SayHi()
         {
             base.SayHi();
             Console.WriteLine("Major Tom to Ground Control...");
         }
 
-        public void Spin()
+        public override void Spin()
         {
             Console.WriteLine("The Astronaut head spins to take in the beauty of the cosmos...");
         }

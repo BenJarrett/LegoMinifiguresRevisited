@@ -29,7 +29,7 @@ namespace LegoMinifiguresRevisited.Heads
 
         // Every time this method is initiated, the worker will lose 1 tooth // 
         // The iff block will not run if the worker does not have more than 0 teeth
-        public void Spin()
+        public override void Spin()
         {
             if (NumberOfTeeth > 0);
             NumberOfTeeth -= 1;
